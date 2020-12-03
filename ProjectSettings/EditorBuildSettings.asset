@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/S1 - Interrogation Room.unity
+    guid: da60c2aa910faa94c9ad84b6e9c2141b
+  - enabled: 1
+    path: Assets/Scenes/S2 - Confessional.unity
+    guid: 3ea61eca7ba33774b9f979102db365ee
   m_configObjects: {}

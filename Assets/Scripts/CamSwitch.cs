@@ -9,11 +9,12 @@ public class camSwitch : MonoBehaviour
     public CinemachineVirtualCamera PlayerCam;
 
     public GameObject Crosshair;
+    public GameObject startMenu;
 
     // Start is called before the first frame update
     void Start()
     {
-      
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class camSwitch : MonoBehaviour
             MenuCam.m_Priority = 10;
             PlayerCam.m_Priority = 11;
             Crosshair.SetActive(true);
+            startMenu.SetActive(false);
         }
     }
 }
